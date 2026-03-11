@@ -1,0 +1,4 @@
+1. **Primary**: Firebase Firestore (real-time operational state)
+2. **Canonical**: Arweave (encrypted, permanent snapshots every 6h)
+3. **On-chain**: Merkle root of Arweave snapshot (verification only)
+4. **Local cache**: Redis on instance (ephemeral, for performance)
