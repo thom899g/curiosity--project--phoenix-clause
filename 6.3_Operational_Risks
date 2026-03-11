@@ -1,0 +1,3 @@
+- **Multi-sig signer unavailability**: Use 2/3 with one hardware wallet backup
+- **Secret leakage**: Use HashiCorp Vault or AWS Secrets Manager
+- **Monitoring blindness**: Implement dead man's switch via Telegram bot
