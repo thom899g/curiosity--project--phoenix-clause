@@ -1,0 +1,4 @@
+1. **Pre-warmed AMI/Snapshot**: Maintain pre-configured snapshot with dependencies
+2. **Arweave CDN caching**: Use Arweave's permaweb CDN for faster retrieval
+3. **Incremental Firebase sync**: Only restore changed documents since last snapshot
+4. **Warm Lambda functions**: Keep monitoring functions pre-warmed
