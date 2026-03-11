@@ -1,0 +1,10 @@
+Component                 | Monthly Cost | Annual Cost | Notes
+-------------------------|--------------|-------------|------------------------
+Hetzner CPX11 (Primary)  | $4.89        | $58.68      | Frankfurt DC
+Hetzner CPX11 (Standby)  | $4.89        | $58.68      | Helsinki DC (geo-redundant)
+AWS Lambda + EventBridge | $2.00        | $24.00      | Multi-region monitoring
+EC2 Spot (t3.small)      | $0.46        | $5.52       | US-East backup
+Arweave Storage (1GB)    | $5.00        | $60.00      | Encrypted state history
+Base L2 Gas (3 txs/day)  | $0.90        | $10.80      | Heartbeat + state proofs
+-------------------------|--------------|-------------|------------------------
+**TOTAL**                | **$18.14/mo**| **$217.68/yr**| 99.99% estimated uptime
