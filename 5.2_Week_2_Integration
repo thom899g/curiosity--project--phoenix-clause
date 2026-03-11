@@ -1,0 +1,4 @@
+- [ ] Build cloud-init script for Hetzner provisioning
+- [ ] Create state backup/restore pipeline (Firebase → Arweave)
+- [ ] Implement heartbeat monitoring Lambda
+- [ ] Deploy multi-sig wallet (Gnosis Safe on Base)
