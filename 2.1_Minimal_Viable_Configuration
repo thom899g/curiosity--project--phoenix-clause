@@ -1,0 +1,10 @@
+Component                 | Monthly Cost | Annual Cost | Notes
+-------------------------|--------------|-------------|------------------------
+Hetzner CPX11            | $4.89        | $58.68      | Primary restoration target
+AWS Lambda (5M invocs)   | $1.00        | $12.00      | Heartbeat monitoring
+AWS EC2 Spot (10% uptime)| $0.23        | $2.76       | Emergency execution
+Arweave Storage (100MB)  | $0.50        | $6.00       | State backups (one-time+)
+Base L2 Gas (daily txs)  | $0.30        | $3.60       | Heartbeat verifications
+Multi-sig Wallet Gas     | $0.10        | $1.20       | Restoration funding tx
+-------------------------|--------------|-------------|------------------------
+**TOTAL**                | **$7.02/mo** | **$84.24/yr** |
