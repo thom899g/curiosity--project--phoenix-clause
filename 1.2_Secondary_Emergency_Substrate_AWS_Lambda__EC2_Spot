@@ -1,0 +1,6 @@
+- **Lambda Cost**: $0.20/million invocations (heartbeat monitoring)
+- **EC2 Spot (t3.micro)**: ~$0.0032/hour (~$2.30/month if continuously needed)
+- **Why Selected**:
+  - 100% serverless monitoring ensures Phoenix stays alive
+  - EC2 Spot instances 90% cheaper than on-demand
+  - Global availability zones (us-east-1, eu-west-1, ap-northeast-1)
