@@ -1,0 +1,4 @@
+- [ ] Dry-run restoration 5x with timing measurements
+- [ ] Simulate failure scenarios (network partition, provider outage)
+- [ ] Test cost controls and budget limits
+- [ ] Document recovery procedures
