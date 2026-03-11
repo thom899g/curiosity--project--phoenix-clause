@@ -1,0 +1,7 @@
+1. **Oracle Cloud Free Tier**: Always-free AMD Compute (4 OCPUs, 24GB RAM)
+   - Risk: May terminate idle instances, requires active monitoring
+   - Strategy: Use as tertiary cold storage restoration point
+
+2. **Google Cloud Preemptible VMs**: ~70-91% cheaper than regular
+   - Risk: Preempted after 24h maximum
+   - Strategy: Use for restoration race execution only
