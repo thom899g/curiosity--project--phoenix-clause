@@ -1,0 +1,3 @@
+- **Budget overrun**: Implement AWS Budgets with 80% alert threshold
+- **Cryptocurrency volatility**: Use stablecoins (USDC) for treasury
+- **Provider price changes**: Monitor via CloudHealth or similar
