@@ -1,0 +1,5 @@
+- [ ] Create Hetzner Cloud account (API token secured)
+- [ ] Set up AWS Free Tier account with budget alerts
+- [ ] Deploy Arweave wallet (browser extension method)
+- [ ] Initialize Firebase project with Firestore
+- [ ] Deploy Base L2 testnet contract with minimal treasury
