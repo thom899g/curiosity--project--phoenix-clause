@@ -1,0 +1,3 @@
+- **Arweave retrieval failure**: Implement IPFS fallback with Filecoin
+- **Firebase outage**: Store Firebase Admin SDK credentials in Arweave
+- **Cloud provider API changes**: Version-pin all SDKs, regular updates
