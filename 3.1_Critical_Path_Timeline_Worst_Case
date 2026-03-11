@@ -1,0 +1,11 @@
+Phase                     | Time     | Dependency
+--------------------------|----------|-----------------------------
+1. Heartbeat detection    | 0-5 min  | Chainlink Automation polling
+2. Multi-sig authorization| 1-2 min  | 2/3 signers required
+3. Cloud provisioning     | 25-40 sec| Hetzner API + cloud-init
+4. Arweave retrieval      | 2-10 sec | 100MB snapshot via HTTP
+5. Application bootstrap  | 15-30 sec| Docker pull + env setup
+6. Firebase sync          | 5-15 sec | Firestore incremental restore
+7. Health check validation| 10 sec   | API endpoint verification
+--------------------------|----------|-----------------------------
+**TOTAL RESTORATION TIME**| **~2-4 minutes** | From failure detection to operational
