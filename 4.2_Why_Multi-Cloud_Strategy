@@ -1,0 +1,4 @@
+- **Avoid single points of failure**: Hetzner + AWS + Oracle
+- **Regulatory compliance**: Data sovereignty across jurisdictions
+- **Cost optimization**: Use cheapest provider for each function
+- **Competitive pricing**: Forces providers to compete
