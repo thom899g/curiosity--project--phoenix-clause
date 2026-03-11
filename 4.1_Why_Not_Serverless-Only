@@ -1,0 +1,4 @@
+- **Cold start times**: 5-10 seconds unpredictable
+- **State limitations**: 10MB Lambda payload limit restricts backup size
+- **Cost unpredictability**: Bursty restoration could spike costs
+- **Vendor lock-in**: Harder to migrate between clouds
